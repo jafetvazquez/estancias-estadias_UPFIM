@@ -203,3 +203,14 @@ input[type='submit']:hover {
    display: block;
    background:rgb(118, 160, 109);
  }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #242930;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+  background: #525c66;
+  border-radius: 50px;
+}
