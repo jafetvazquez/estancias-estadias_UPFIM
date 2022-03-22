@@ -45,6 +45,5 @@ if(($nr ['rol_id'] == 1)){//envia al apartado administrador - admin (admin-admin
     //echo "<alertaE>";
     //require ('login.html');
 }
-mysqli_close($conn);/*Cierre de la variable de 
-conexión*/
+mysqli_close($conn);/*Cierre de la variable de conexión*/
 ?>
