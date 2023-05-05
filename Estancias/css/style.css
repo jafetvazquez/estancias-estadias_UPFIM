@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
 html{
     padding: 0px;
     margin: 0px;
@@ -87,4 +88,21 @@ h1{
 }
 ::-webkit-scrollbar{
     width: 10px;
+}
+input[class='btn']{
+    align-content: center;
+    margin: 1rem;
+    width: 400px;
+    border: none;
+    background: rgb(118, 160, 109);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px solid black;
+    color: white;
+    height: 40px;
+    align-items: center;
+  
+    box-shadow: 0 0 40px 40px rgb(118, 160, 109) inset, 0 0 0 0 rgb(118, 160, 109);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }

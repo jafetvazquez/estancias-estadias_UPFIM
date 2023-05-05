@@ -13,7 +13,7 @@
         <div class="content-text">
           <span>Elige el apartado</span><br />
           <br/>
-          <input type="submit" class="Alumnos" onclick="location.href='../menuadmin/Alumnos/menu_alumnos.php'" value="Alumnos">
+          <input type="submit" class="Alumnos" onclick="location.href=''" value="Alumnos">
           <input type="submit" name="Docentes" onclick="location.href='#'" value="Docentes">
           <input type="submit" name="Empresas" onclick="location.href='#'" value="Empresas">
         </div>
