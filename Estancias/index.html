@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/style.css">
+    <title>Estancias UPFIM</title>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="login">
+		<div class="login-box-body">
+            <h1>Estancias y Estadias UPFIM</h1>
+			<img src="images/logo upfim.png" width="50%" style="margin: 0 auto;" class="my-4">
+
+			<form method="post">
+
+				<div class="form-group has-feedback">
+					<input type="text" placeholder="Usuario" name="txtUsuario" required="" autofocus="">
+				</div>
+				<div class="form-group has-feedback">
+					<input type="password" placeholder="Contraseña" name="txtContrasena" required="">
+				</div>
+				<button id="btnLogin" type="submit" class="btn btn-sm btn-success btn-block" name="btnLogin" onclick="alumnoAdmin()">Iniciar Sesión</button>
+				
+			</form>
+
+		</div>
+	</div>
+	
+</body>
+</html>
+
+<script>
+	function alumnoAdmin() {
+		Swal.fire({
+			title: '<strong>  <span style="font-family: tahoma ;font-size: 40px; margin: 5px 0;">ingresa como:</span> </strong>',
+            icon: false,
+            html:
+
+                '<input type="button" class="btn" onclick=location.href="menualumno/menualum.php" value="Alumnos">' +
+                '<input type="button" class="btn" onclick=location.href="menuadmin/menuad.php" value="Administrador">',
+
+            showCloseButton: false,
+            showCancelButton: false,
+
+            showConfirmButton: false
+		});
+	}
+
+	Swal.fire(
+		'INFO',
+		'Este sitio solo es una prueba, no está conectado a una base de datos',
+		'info'
+	)
+</script>

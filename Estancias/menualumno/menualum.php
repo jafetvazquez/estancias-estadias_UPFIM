@@ -23,7 +23,7 @@
 
         <div class="content-buttons">
           <br/>
-          <input type="submit" class="sesion" onclick="location.href='../login.html'" value="Cerrar Sesión">
+          <input type="submit" class="sesion" onclick="location.href='../index.html'" value="Cerrar Sesión">
         </div>
       </div>
     </div>
