@@ -38,8 +38,8 @@
             icon: false,
             html:
 
-                '<input type="button" class="btn" onclick=location.href="menualumno/menualum.php" value="Alumnos">' +
-                '<input type="button" class="btn" onclick=location.href="menuadmin/menuad.php" value="Administrador">',
+                '<input type="button" class="btn" onclick=location.href="" value="Alumnos">' +
+                '<input type="button" class="btn" onclick=location.href="" value="Administrador">',
 
             showCloseButton: false,
             showCancelButton: false,
@@ -48,9 +48,10 @@
 		});
 	}
 
-	Swal.fire(
-		'INFO',
-		'Este sitio solo es una prueba, no está conectado a una base de datos',
-		'info'
-	)
+	Swal.fire({
+		icon: 'info',
+		title: 'Página de prueba',
+		text: 'Esta página es institucional, por lo que se ha elimindao el acceso a la base de datos asignada.',
+		footer: 'Esta página solo es una muestra del proyecto'
+	});
 </script>
